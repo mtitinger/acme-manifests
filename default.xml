@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote name="buildroot"
+          fetch="https://git.buildroot.net"
+          review="" />
+
+  <remote fetch="ssh://git@github.com/mtitinger" name="mtitinger" />
+
+  <remote fetch="git://git.kernel.org/pub/scm/linux/kernel/git/rafael" name="raphael" />
+
+  <remote name="sigrok" fetch="git://sigrok.org" />
+
+  <default revision="master" remote="mtitinger" />
+
+  <project  name="libsigrok" remote="sigrok" />
+  <project  name="pulseview" remote="sigrok" />
+  <project  name="buildroot" remote="buildroot">
+      <copyfile src="./acme_buildroot_defconfig" dest="buildroot/.config" />
+  </project>
+  <project  name="linux-pm" remote="raphael" path="linux" />
+
+  <!-- Local script stuff -->
+  <project  name="ACME" path="." remote="mtitinger" />
+
+</manifest>
