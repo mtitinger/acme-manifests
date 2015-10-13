@@ -19,7 +19,7 @@
       <copyfile src="../patches/acme_buildroot_defconfig" dest="buildroot/.config" />
   </project>
 
-  <project  name="linux-pm" remote="mtitinger" path="linux" revision="master" />
+  <project  name="linux-pm" remote="mtitinger" path="linux" revision="acme" />
 
   <!-- Local script stuff -->
   <project  name="ACME" path="." remote="mtitinger" />
