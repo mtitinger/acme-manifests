@@ -7,7 +7,9 @@
 
   <remote fetch="ssh://git@github.com/mtitinger" name="mtitinger" />
 
+<!--
   <remote fetch="git://git.kernel.org/pub/scm/linux/kernel/git/rafael" name="raphael" />
+-->
 
   <remote name="sigrok" fetch="git://sigrok.org" />
 
@@ -18,7 +20,8 @@
   <project  name="buildroot" remote="buildroot">
       <copyfile src="./acme_buildroot_defconfig" dest="buildroot/.config" />
   </project>
-  <project  name="linux-pm" remote="raphael" path="linux" />
+
+  <project  name="linux-pm" remote="mtitinger" path="linux" revision="acme" />
 
   <!-- Local script stuff -->
   <project  name="ACME" path="." remote="mtitinger" />
