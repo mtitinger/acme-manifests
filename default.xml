@@ -2,17 +2,16 @@
 <manifest>
 
   <remote name="buildroot" fetch="git://git.buildroot.net" />
-
   <remote fetch="ssh://git@github.com/mtitinger" name="mtitinger" />
-
-
   <remote name="sigrok" fetch="git://sigrok.org" />
+  <remote name="baylibre" fetch="git://git.baylibre.com/pub" />
 
   <default revision="master" remote="mtitinger" />
 
   <project  name="libsigrok" remote="sigrok" />
   <project  name="pulseview" remote="sigrok" />
   <project  name="sigrok-cli" remote="sigrok" />
+  <project  name="acme/linux" remote="baylibre" path="linux" />
 
   <project  name="buildroot" remote="buildroot">
       <copyfile src="../patches/baylibre-acme_defconfig" dest="buildroot/configs" />
