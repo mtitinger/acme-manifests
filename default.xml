@@ -4,7 +4,7 @@
   <remote name="buildroot" fetch="git://git.buildroot.net" />
   <remote fetch="ssh://git@github.com/mtitinger" name="mtitinger" />
   <remote name="sigrok" fetch="git://sigrok.org" />
-  <remote name="baylibre" fetch="git://git.baylibre.com/pub" />
+  <remote name="baylibre" fetch="http://git.baylibre.com/pub" />
 
   <default revision="master" remote="mtitinger" />
 
