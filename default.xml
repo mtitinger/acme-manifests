@@ -14,7 +14,7 @@
   <project  name="pulseview" remote="sigrok" />
   <project  name="buildroot" remote="buildroot">
       <copyfile src="../patches/baylibre-acme_defconfig" dest="configs" />
-      <copyfile src="../patches/baylibre-acme" dest="buildroot/boards" />
+      <copyfile src="../patches/baylibre-acme" dest="buildroot/board" />
       <linkfile src="output/build/linux-4.3.2" dest="linux" />
   </project>
 
