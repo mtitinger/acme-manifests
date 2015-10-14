@@ -12,6 +12,8 @@
 
   <project  name="libsigrok" remote="sigrok" />
   <project  name="pulseview" remote="sigrok" />
+  <project  name="sigrok-cli" remote="sigrok" />
+
   <project  name="buildroot" remote="buildroot">
       <copyfile src="../patches/baylibre-acme_defconfig" dest="buildroot/configs" />
   </project>
