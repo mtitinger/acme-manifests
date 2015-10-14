@@ -16,7 +16,8 @@
   <project  name="libsigrok" remote="sigrok" />
   <project  name="pulseview" remote="sigrok" />
   <project  name="buildroot" remote="buildroot">
-      <copyfile src="../patches/acme_buildroot_defconfig" dest="buildroot/.config" />
+      <copyfile src="../patches/baylibre-acme_defconfig" dest="configs" />
+      <copyfile src="../patches/baylibre-acme" dest="boards" />
   </project>
 
   <project  name="linux-pm" remote="mtitinger" path="linux" revision="acme" />
