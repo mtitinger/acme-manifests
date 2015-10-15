@@ -15,7 +15,7 @@
 
   <!-- Also remember to copy patches/baylibre-acme to buildroot/board -->
   <project  name="buildroot" remote="buildroot">
-      <copyfile src="../patches/baylibre-acme_defconfig" dest="buildroot/configs" />
+ <!--     <copyfile src="../patches/baylibre-acme_defconfig" dest="buildroot/configs" /> -->
   </project>
 
   <!-- Local script stuff -->
