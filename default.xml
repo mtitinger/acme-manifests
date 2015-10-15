@@ -11,8 +11,9 @@
   <project  name="libsigrok" remote="sigrok" />
   <project  name="pulseview" remote="sigrok" />
   <project  name="sigrok-cli" remote="sigrok" />
-  <project  name="acme/linux" remote="baylibre" path="linux" />
+  <project  name="acme/linux" remote="baylibre" path="linux" revision="acme" />
 
+  <!-- Also remember to copy patches/baylibre-acme to buildroot/board -->
   <project  name="buildroot" remote="buildroot">
       <copyfile src="../patches/baylibre-acme_defconfig" dest="buildroot/configs" />
   </project>
