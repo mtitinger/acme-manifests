@@ -9,7 +9,8 @@
 
   <default revision="master" remote="mtitinger" />
 
-  <project  name="libsigrok" remote="sigrok" />
+  <project  name="libsigrok" />
+  <project  name="libiio"  />
   <project  name="pulseview" remote="sigrok" />
   <project  name="sigrok-cli" remote="sigrok" />
   <project  name="acme/linux" remote="baylibre" path="linux" revision="acme" />
