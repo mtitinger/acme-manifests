@@ -14,7 +14,7 @@
   <project  name="pulseview" remote="sigrok" />
   <project  name="sigrok-cli" remote="sigrok" />
   <project  name="acme/linux" remote="baylibre" path="linux" revision="acme" />
-  <project  name="pru_sdk" remote="texane" />
+  <!-- project  name="pru_sdk" remote="texane" /> -->
 
   <!-- Also remember to copy patches/baylibre-acme to buildroot/board -->
   <project  name="buildroot" remote="buildroot">
