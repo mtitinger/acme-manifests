@@ -13,6 +13,7 @@
   <project  name="libiio"  />
   <project  name="pulseview" remote="sigrok" />
   <project  name="sigrok-cli" remote="sigrok" />
+  <project  name="libsigrokdecode" remote="sigrok" />
   <project  name="acme/linux" remote="baylibre" path="linux" revision="acme-iio" />
   <!-- project  name="pru_sdk" remote="texane" /> -->
 
