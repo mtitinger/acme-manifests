@@ -4,10 +4,12 @@
   <remote fetch="ssh://git@github.com/mtitinger" name="mtitinger" />
   <remote name="baylibre" fetch="ssh://git@git.baylibre.com/pub" />
   <remote name="baylibre-hub" fetch="https://github.com/baylibre" />
+  <remote name="denx" fetch="git://git.denx.de" />
 
   <default revision="master" remote="mtitinger" />
 
   <project  name="acme/linux" remote="baylibre" path="linux" revision="acme-iio" />
   <project  name="buildroot" remote="buildroot" />
+  <project  name="u-boot" remote="denx" />
   <project  name="ACME" path="." remote="mtitinger" />
 </manifest>
